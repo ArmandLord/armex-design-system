@@ -23,7 +23,7 @@ export interface MyLabelProps {
   customColor?: string;
 }
 
-const MyLabel = ({
+export const MyLabel = ({
   label = "Hola",
   size = "h1",
   allCaps = false,
@@ -39,5 +39,3 @@ const MyLabel = ({
     </span>
   );
 };
-
-export default MyLabel;
